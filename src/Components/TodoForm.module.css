@@ -1,0 +1,27 @@
+.todoInput {
+  color: #622569;
+  margin: 10px;
+  margin-right: 1px;
+  width: 30%;
+}
+
+.inputCalendar {
+  margin: 10px 3px;
+  cursor: pointer;
+  width: 15%;
+}
+
+.todoButton {
+  margin: 10px;
+  cursor: pointer;
+  width: 10%;
+}
+
+.todoInput,
+.inputCalendar,
+.todoButton {
+  background-color: #fffaf0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px black;
+}

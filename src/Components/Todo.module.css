@@ -1,0 +1,49 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffaf0;
+  box-shadow: 1px 1px 4px black;
+  width: 58%;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.completedTodo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5b9aa0;
+  color: #d6d4e0;
+  box-shadow: 1px 1px 4px black;
+  width: 58%;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.todoText {
+  text-align: left;
+  width: 400px;
+}
+
+.todoDate {
+}
+
+.todoIcon {
+  color: #5b9aa0;
+}
+
+.checkIcon,
+.deleteIcon {
+  margin: auto 10px;
+  transition: color 0.5s;
+}
+
+.deleteIcon:hover {
+  color: #c83349;
+}
+.checkIcon:hover {
+  color: lightseagreen;
+}

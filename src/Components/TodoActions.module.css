@@ -1,0 +1,73 @@
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: 10px auto 20px;
+}
+
+.flexContainerForFilters {
+  display: flex;
+}
+.sorting {
+  width: 30%;
+}
+
+.filters {
+  width: 50%;
+}
+.titleTodoActions {
+  color: black;
+  text-shadow: 1px 1px 5px white;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.buttonSortingDate,
+.buttonSortingText,
+.buttonDeleteSorting {
+  background-color: #fffaf0;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px black;
+}
+
+.buttonSortingDate,
+.buttonSortingText {
+  padding: 10px 45px;
+}
+
+.buttonDeleteSorting {
+  padding: 10px 98px;
+}
+
+.filtersText,
+.filtersDate {
+  width: 50%;
+  text-align: left;
+}
+.filtersInputText {
+}
+
+.filtersInputDate {
+}
+
+.filtersButton {
+  background-color: #fffaf0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px black;
+  padding: 11px;
+  margin: 5px;
+  width: 275px;
+  cursor: pointer;
+}
+.filtersInputText,
+.filtersInputDate {
+  background-color: #fffaf0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px black;
+  padding: 5px;
+  margin: 5px;
+  width: 260px;
+  height: 18px;
+}
